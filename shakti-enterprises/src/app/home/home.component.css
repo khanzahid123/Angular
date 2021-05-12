@@ -1,0 +1,8 @@
+.horizontally {
+    height: 25px;	
+    overflow: hidden;
+    position: relative;
+    background: rgb(180, 217, 228);
+    color: rgb(37, 37, 75);
+    border: 1px solid rgb(112, 204, 240);
+   }
