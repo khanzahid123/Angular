@@ -22,9 +22,17 @@ employeeForm: FormGroup
     });
   }
   onLoadDataClick(): void {
-
+this.employeeForm.setValue({
+  fullName : 'Zahid Khan',
+  email: 'kzhd@abc.com',
+      skills: {
+        skillName: "Html",
+        experienceInYears: 5,
+        proficiency: "advanced"
+      }
+});
   }
-  
+
   onSubmit(): void {
     console.log(this.employeeForm.value);
   }
