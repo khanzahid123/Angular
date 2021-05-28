@@ -9,7 +9,8 @@ import { HeaderComponent } from './header/header.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ListEmployeeComponent } from './employee/list-employee.component';
 import { CreateEmployeeComponent } from './employee/create-employee.component';
-import { ReactiveFormsModule } from '@angular/forms'; 
+import { ReactiveFormsModule } from '@angular/forms';
+import { ContactUsComponent } from './contact-us/contact-us.component'; 
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     HeaderComponent,
     PageNotFoundComponent,
     ListEmployeeComponent,
-    CreateEmployeeComponent
+    CreateEmployeeComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
